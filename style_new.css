@@ -1,3 +1,7 @@
+.login label {
+    text-align: left !important;
+}
+
 .signUp {
     margin-top: 5% !important;
 }
@@ -32,13 +36,14 @@
 
 .login {
     background-color: rgba(255,255,255,1);
-    padding-top: 15% !important;
+    padding-top: 20% !important;
     padding-bottom: 15% !important;
     margin-top: 50% !important;
     padding-left: 5% !important;
     padding-right: 5% !important;
     margin-bottom: 50% !important;
     text-shadow: none;
+    border-radius: 20px;
 }
 
 .loginContainer {
@@ -48,6 +53,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-shadow: 3px 3px 6px black;  
+
 }
 
 .classes {
@@ -352,9 +358,8 @@
 
 .navContact {
     text-align: right !important;
-    padding-right: 5% !important;
+    padding-right: 2% !important;
     color: white !important;
-    margin-left: 25% !important;
 }
 
 .navContact img {
@@ -364,13 +369,10 @@
 
 .social {
     width: 50% !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-    clear: left;
 }
 
 .phone {
-    width: 4% !important;
+    width: 3% !important;
 }
 
 .email {
@@ -392,10 +394,14 @@
 
 .fist {
     width: 40px;
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+    margin-left: 1% !important;
+    text-align: center !important;
 }
 
 .logo {
-    width: 120px;
+    width: 160px;
 }
 
 @media (min-width: 320px) {
@@ -405,20 +411,12 @@
     }
 
     .logo {
-        width: 150px;
+        width: 180px;
     }
    
 }
 
 @media (min-width: 375px) {
-    
-    .fist {
-        width: 60px;
-    }
-
-    .logo {
-        width: 180px;
-    }
    
     .homePage h4 {
         margin-bottom: 1% !important;
@@ -442,7 +440,11 @@
 
 @media (min-width: 768px) {
     .logo {
-        width: 250px;
+        width: 220px;
+    }
+
+    .fist {
+        width: 60px;
     }
     
     .footer {
@@ -476,6 +478,12 @@
         margin-bottom: 62% !important;
     }
 
+    .login {
+        margin-top: 20% !important;
+        margin-bottom: 20% !important;
+        padding-top: 9% !important;
+        padding-bottom: 7% !important;
+    }
 }
 
 @media (max-width: 991px) { 
@@ -499,7 +507,7 @@
         height: 0;
     }
 
-    .navLinks .nav-link {
+    .navLinks {
         padding-left: 5% !important;
         padding-bottom: 1% !important;
         padding-top: 1% !important;
@@ -518,24 +526,36 @@
 }
 
 @media (min-width: 991px) { 
-    .navLinks {
-        margin-left: 10% !important;
-    }   
-
-    .navLinks .nav-item {
-        margin-left: 6% !important;
+    .nav-item {
+        margin-left: 8% !important;
     }
 
     .fist {
-        width: 80px;
+        width: 50px;
     }
 
     .logo {
-        width: 450px !important;
+        width: 550px;
+        padding-right: 22% !important;
     }
 
     .navbar {
         padding-bottom: 0 !important;
+    }
+
+    .navLinks {
+        z-index: 1 !important;
+    }
+
+    .phone {
+        margin-bottom: 0.5% !important;
+    }
+
+    .email {
+        margin-bottom: 0.5% !important;
+    }
+    .social {
+        width: 40% !important;
     }
 }
 
@@ -551,14 +571,40 @@
         width: 300px !important;
     }
 
-    .phone {
-        width: 7% !important;
+    .loginContainer {
+        background-position: center top;
     }
 
-    .email {
-        width: 8.5% !important;
-        margin-left: 2% !important;
+    .login {
+        padding-left: 2% !important;
+        padding-right: 2% !important;
     }
+
+    .navLinks {
+        font-size: 120% !important;
+    }
+
+    .logo {
+        width: 750px;
+    }
+
+    .fist {
+        width: 65px;
+    }
+
+    .login {
+        font-size: 150% !important;
+    }
+
+    .login input[type=checkbox]
+    {
+        zoom: 1.5;
+    }
+
+    .footer {
+        font-size: 120% !important;
+    }
+
 }
 
 
@@ -568,12 +614,43 @@
         height: 60% !important;
     }
 
-    .fist {
-        width: 120px !important;
-    }
-    p, h1, h2, h3, h4, h5, h6, form, .navLinks {
+    p, h1, h2, h3, h4, h5, h6, form {
         font-size: 130% !important;
     }
+
+    .navLinks {
+        font-size: 150% !important;
+    }
+
+    .navContact {
+        font-size: 110% !important;
+    }
+
+    .logo {
+        width: 800px;
+    }
+
+    .fist {
+        width: 80px;
+    }
+
+    .login {
+        font-size: 150% !important;
+    }
+
+    .signUp {
+        font-size: 100% !important;
+    }
+
+    .login input[type=checkbox]
+    {
+        zoom: 2;
+    }
+
+    .footer {
+        font-size: 125% !important;
+    }
+
 }
 
 @media (min-width: 1500px) { 
@@ -600,11 +677,27 @@
     }
 
     .navLinks {
-        font-size: 190% !important;
-        margin-left: 5% !important;
+        font-size: 270% !important;
+    }
+
+    .navContact {
+        font-size: 160% !important;
     }
 
     .fist {
-        width: 190px !important;
+        width: 140px;
+    }
+
+    .login {
+        font-size: 200% !important;
+    }
+
+    .login input[type=checkbox]
+    {
+        zoom: 3;
+    }
+
+    .footer {
+        font-size: 170% !important;
     }
 }

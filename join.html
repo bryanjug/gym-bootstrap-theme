@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="Gym, No Pain No Gain, gym near me, gym workout, best gyms in the world, gym website, fitness, high quality gym, NoPainNoGain, best gym">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No Pain No Gain || Log in / Sign up</title>
+    <meta name="description" content="Join NoPainNoGain to use the most clean and luxurious gym to better meet your fitness goals! Class, equipment, and customer support quality is our #1 priority.">
+    <meta name="author" content="Bryan Daniel Jug">
+    <title>Log in | Sign up | No Pain No Gain</title>
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="style_new.css" rel="stylesheet">
@@ -11,7 +14,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src='show_width.js'></script>
 </head>
 <body>
     <div class='container-fluid'>
@@ -22,12 +24,12 @@
                         <img src='images/fist.png' class='img-fluid fist' alt='NoPainNoGain Logo Fiery Fist'>
                         <img src='images/logo.png' class='img-fluid logo' alt='NoPainNoGain Logo'>
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                   
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav navLinks">
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto navLinks">
                             <li class="nav-item active">
                               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
@@ -46,7 +48,7 @@
                         </ul>
                         <div class='row navContact'>
                             <div class='col-12'>
-                                <img src='images/socialmedia.png' class='img-fluid social' alt="NoPainNoGain's Social Platform Links">
+                                <img src='images/socialmedia.png' class='img-fluid social' alt="NoPainNoGain's social media links">
                             </div>
                             <div class='col-12 navContact2'>
                                 <p><img src="images/phone.png" class='phone' alt="NoPainNoGain's phone number icon">
@@ -60,16 +62,16 @@
             </div>
         </div>
         <div class='row loginContainer'>
-            <div class='col-10 col-md-6 login m-auto'>
-                <img src='images/fist.png' class='img-fluid fistLogin'>
-                <img src='images/logo_inverse.png' class='img-fluid logoLogin'>
+            <div class='col-10 col-md-5 col-xl-4 login m-auto'>
+                <img src='images/fist.png' class='img-fluid fistLogin' alt='NoPainNoGain Logo Fiery Fist'>
+                <img src='images/logo_inverse.png' class='img-fluid logoLogin' alt='NoPainNoGain Logo'>
                 <h4>Welcome back!</h4>
-                <p>
-                    Sign In To Access Your Account
-                </p>
+                <p>Sign In To Access Your Account</p>
                 <form>
+                    <label class='loginLabels' for='username'>Enter a Username:</label>
                     <input type="text" value='Username' class='username' id='username'>
                     <br/>
+                    <label class='loginLabels' for='password'>Enter a Password:</label>
                     <input type="password" value='Password' class='password' id='password'>
                     <br/>
                     <input type="checkbox" id="remember" name="remember" value="remember">
@@ -94,12 +96,16 @@
             </div>
             <div class='col-12 col-md-6 footerForm'>
                 <form>
+                    <label for='contactName'>Full Name:</label>
                     <input type="text" value='Name' class='contactInput' id='contactName'>
                     <br/>
+                    <label for='contactEmail'>Email Address:</label>
                     <input type="email" value='Email' class='contactInput' id='contactEmail'>
                     <br/>
+                    <label for='contactTelephone'>Phone Number:</label>
                     <input type="tel" value='Telephone' class='contactInput' id='contactTelephone'>
                     <br/>
+                    <label for='contactComment'>Type in your comment:</label>
                     <input type="text" value='Comment' class='contactInput' id='contactComment'>
                     <br/>
                     <input type="submit" id='contactSubmit'>
@@ -109,7 +115,7 @@
                 <p><a href='#'>Home</a> | <a href='#'>Classes</a> | <a href='#'>HIIT</a> | <a href='#'>About</a> | <a href='#'>Join</a></p>
             </div>
             <div class='col-12 copyRight'>
-                <p>Copyright &copy; <a href='mailto:bryanjug@yahoo.com'>BryanJug@yahoo.com</a></p>
+                <p>Copyright &copy; <a href='mailto:bryandjug@gmail.com'>bryandjug@gmail.com</a></p>
             </div>
         </div>
     </div>
